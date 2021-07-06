@@ -4,8 +4,8 @@ namespace API.DTOs
     {
         public int Id { get; set; }
 
-        public string url { get; set; }
+        public string Url { get; set; }
 
-        public string isMain { get; set; }
+        public string IsMain { get; set; }
     }
 }
