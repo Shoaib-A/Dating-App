@@ -15,6 +15,7 @@ import { AuthGuard } from './_guards/auth.guard';
 import { PreventUnsavedChangesGuard } from './_guards/prevent-unsaved-changes.guard';
 import { MemberDetaildResolver } from './_resolvers/member-detailed.resolver';
 
+
 const routes: Routes = [
   {path:'',component:HomeComponent },
   {
